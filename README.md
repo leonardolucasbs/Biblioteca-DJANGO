@@ -130,21 +130,4 @@ Importante: os endpoints de `livros` usam a sessão (`request.session["usuario_i
 - `Usuarios`: `id`, `nome`, `email` (único), `senha` (hash).
 - `Livros`: `id`, `usuario` (FK), `titulo`, `autor`, `data_aluguel` (auto), `data_entrega`.
 
----
-
-## 🧪 Dicas de Desenvolvimento
-
-- Admin (`/admin/`): disponível, porém os modelos não estão registrados por padrão.
-- Idioma e fuso: `pt-br` e `America/Recife` configurados em `project/settings.py`.
-- DRF: `rest_framework` já adicionado ao projeto.
-
----
-
-## 📌 Roadmap Sugerido
-
-- Registrar modelos no admin para inspeção rápida.
-- Proteções adicionais para API (permissões e autenticação).
-- Validação de datas de entrega no backend/API.
-- Paginação e filtros na listagem de aluguéis.
-
 
