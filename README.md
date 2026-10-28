@@ -43,7 +43,7 @@ Aplicação web e API REST para uma biblioteca online. Os usuários podem se cad
 ### 2) Clonar o Repositório
 
 ```
-git clone https://github.com/leonardolucasbs/wsBackend-Fabrica25.2.git .
+git clone https://github.com/leonardolucasbs/Biblioteca-DJANGO.git .
 cd <PASTA_DO_REPO>
 ```
 
